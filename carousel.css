@@ -1,0 +1,42 @@
+*{
+    font-family: sans-serif;
+}
+.carousel-heading{
+    font-family: gt-super, Georgia, Cambria, "Times New Roman", Times, serif !important;;
+    font-size: 80px;
+    font-weight: 400;
+    margin-top: 150px;
+}
+
+.carousel-text{
+    font-size: 26px;
+    width: 500px;
+    margin: 50px 0;
+    font-weight: 300;
+}
+
+.carousel-button{
+    font-size: 22px;
+    border: 0;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    width: 250px;
+    border-radius: 50px;
+}
+.carousel{
+    padding: 0px 20px;
+}
+/* 
+.firstArticleChild_Img{
+    height: 100px;
+    width: 100px;
+    background-image: url("https://enlivenplanters.com/wp-content/uploads/2017/10/01.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+} */
+
+.firstArticleChild_Num{
+    font-size: 32px;
+    font-weight: 900;
+}
