@@ -14,28 +14,33 @@
         }
 
         .container {
-            /* width: 1200px; */
+            display: flex;
+            flex-direction: column;
+            /* justify-content: c; */
             margin: auto;
             height: 500px;
-            /* border: 1px solid black; */
             margin-top: 90px;
-            /* font-family: sans-serif; */
-            /* font-family: gt-super, Georgia, Cambria, "Times New Roman", Times, serif !important; */
         }
-        .yellow-container_parent{
+        /* .yellow-container_parent{
+            display: flex;
+            justify-content: center;
+            height: 530px;
+            position: absolute;
+            width: 100%;
+            top: 0;
+            left: 0;
+            background-color: blue;
             
+            z-index: -1;
         }
 
         .yellow-container {
-            position: absolute;
-            top: 0;
-            left: 0;
-            height: 530px;
+            height: 100%;
             
-            width: 100%;
+            width: 90%;
             background-color: #FFC017;
-            z-index: -1;
-        }
+          
+        } */
     </style>
     <!-- Including Navbar CSS -->
     <link rel="stylesheet" href="./navbar.css">
@@ -50,7 +55,7 @@
 <body>
 
     <!-- YELLOW BOX CONTAINER OF CAROUSEL STARTS -->
-    <div class="yellow-container_parent"><div class="yellow-container"></div></div>
+    <!-- <div class="yellow-container_parent"><div class="yellow-container"></div></div> -->
     <!-- YELLOW BOX CONTAINER OF CAROUSEL ENDS -->
 
 
@@ -94,15 +99,17 @@
 
 
         <!-- CAROUSEL STARTS -->
+        <div class="carouselParent">
         <div class="carousel">
             <h1 class="carousel-heading">Stay curious.</h1>
             <div class="carousel-text">Discover stories, thinking, and expertise from writers on any topic.</div>
             <button class="carousel-button">Start Reading</button>
         </div>
+    </div>
         <!-- CAROUSEL ENDS -->
 
 
-
+        
         <div class="trending-articles">
             <div>
 

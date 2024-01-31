@@ -1,6 +1,7 @@
 *{
     font-family: sans-serif;
 }
+.carousel
 .carousel-heading{
     font-family: gt-super, Georgia, Cambria, "Times New Roman", Times, serif !important;;
     font-size: 80px;
@@ -26,7 +27,23 @@
     border-radius: 50px;
 }
 .carousel{
-    padding: 0px 20px;
+    /* background-color: pink; */
+    width: 90%;
+    
+    /* padding: 0px 20px; */
+}
+.carouselParent{
+    display: flex;
+            justify-content: center;
+            /* justify-items: center; */
+            height: 530px;
+            position: absolute;
+            width: 100%;
+            top: 0;
+            left: 0;
+            background-color:#FFC017;
+            
+            z-index: -1;
 }
 /* 
 .firstArticleChild_Img{

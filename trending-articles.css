@@ -1,10 +1,16 @@
 .trending-articles{
+    position: absolute;
+    top: 430px;
+    width: 100%;
+    background-color: blue;
     margin-top: 100px;
-    padding: 2px;
+    /* padding: 2px; */
 }
 .articles-list{
-    width: 100%;
-    border: 2px solid red;
+    margin: auto;
+    width: 90%;
+    background-color: red;
+    /* border: 2px solid red; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
