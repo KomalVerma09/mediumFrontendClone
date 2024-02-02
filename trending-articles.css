@@ -18,7 +18,7 @@
     width: 90%;
     /* background-color: blue; */
     display: grid;
-    grid-template-columns: 33.33% 33.33% 33.33%;
+    grid-template-columns: 33% 33% 33%;
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 40px 0;
@@ -106,4 +106,41 @@
     font-size: 16px;
     font-weight: 700;
 }
+.article-1{
+    /* background-color: orange; */
+    display: flex;
+    position: relative;
+    /* width: 33.33%; */
+    flex-direction: column;
+}
 
+.article-1 .mainContainer{
+    /* background-color: red; */
+    display: flex;
+}
+.article-1 .hoverContainer{
+    background-color: white;
+    padding: 20px;
+    border: 2px solid white;
+    box-shadow: 10px 0px 1px black, -10px -10px 15px blue;
+
+    border-radius: 5px;
+    height: 190px;
+    width: 75%;
+    position:absolute;
+    top:-10em;
+    right:-12em;
+    visibility: hidden;
+    /* display: none; */
+    z-index: 1;
+}
+.name-1:hover{
+    cursor:pointer;
+}
+
+
+.name-1:hover .hoverContainer{
+    /* background-color: red; */
+    visibility: visible;
+    /* display: block; */
+}
