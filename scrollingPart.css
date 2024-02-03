@@ -1,0 +1,35 @@
+.scrollingParent{
+    height: 1000px;
+    width:100%;
+    background-color: blue;
+    position: absolute;
+    top: 55rem;
+    display:flex;
+    justify-content:center;
+    
+
+}
+.scrollingChilds{
+    display:grid;
+    grid-template-columns:66% 34%;
+    width:90%;
+    height:100%
+    background-color:purple;
+}
+
+.scrollingPart{
+    height:500px;
+    background-color:orange;
+}
+.scrollingPart .card{
+
+}
+.scrollingPart .img{
+
+}
+.fixed{
+    height:500px;
+    background-color:red;
+    position:sticky;
+    top:80px;
+}

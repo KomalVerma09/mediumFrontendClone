@@ -8,6 +8,7 @@
     display: flex;
     justify-content: center;
     z-index: 2;
+    box-shadow: 0 1px 10px rgb(0 0 0 / 0.1);
 
 }
 #navbar{
@@ -79,28 +80,9 @@
     background-size: contain;
     background-position: 20% 0;
 }
-/* 
-.circle-1,
-.circle-2{
-    position: absolute;
-    height: 30px;
-    width: 30px;
-    border-radius: 50%;
-    background-color: black;
-    top: 0;
+@media screen and (max-width:727px) {
+    .nav-item{
+        display: none;
+    }
+    
 }
-
-.circle-1{
-    left: -15px;
-}
-.circle-2{
-    right: -15px;
-}
-
-.get-started span{
-    z-index: 1;
-    position: absolute;
-    top: 6px;
-    left: 0;
-    width: 100%;
-} */
