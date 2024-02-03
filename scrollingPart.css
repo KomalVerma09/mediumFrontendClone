@@ -1,11 +1,13 @@
 .scrollingParent{
     height: 1000px;
     width:100%;
-    background-color: blue;
+    /* background-color: blue; */
+    border: 1px solid black;
     position: absolute;
     top: 55rem;
     display:flex;
     justify-content:center;
+    padding-top: 50px;
     
 
 }
@@ -19,17 +21,65 @@
 
 .scrollingPart{
     height:500px;
-    background-color:orange;
+    /* background-color:orange; */
 }
 .scrollingPart .card{
 
 }
-.scrollingPart .img{
-
+.cardParent{
+    /* background-color: orange; */
+    display: grid;
+    grid-template-columns: 59% 25%;
+    gap: 4%;
+    position: relative;
+    /* width: 33.33%; */
+    flex-direction: column;
 }
+.card{
+    /* background-color: pink; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+.card .title{
+        /* background-color: purple; */
+        display: flex;
+        gap: 10px;
+        align-items: center;
+}
+.card .title .pic{
+    height: 20px;
+    width: 20px;
+    background-repeat: no-repeat;
+    border-radius: 50px;
+    
+}
+.card .title .pic1{
+    background-image: url("https://miro.medium.com/v2/resize:fill:20:20/1*nAnbrKe69CgR94fn8i1WqQ.jpeg");
+}
+.card .title .name,.card .DateText{
+    font-size: 12px;
+    font-weight: 600;
+}
+.card .DateText{
+    color: #242424;
+}
+.card .heading{
+    font-size: 16px;
+    font-weight: 700;
+}
+.imgSection{
+    height: 134px;
+    width: 200px;
+    /* background-color: blanchedalmond; */
+    background-image: url("https://miro.medium.com/v2/resize:fill:200:134/1*GkorW3xTNkXuXThusqbJzg.jpeg");
+}
+
 .fixed{
     height:500px;
     background-color:red;
     position:sticky;
     top:80px;
 }
+.
