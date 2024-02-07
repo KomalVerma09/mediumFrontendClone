@@ -36,8 +36,9 @@
     display: flex;
             justify-content: center;
             /* justify-items: center; */
-            height: 530px;
+            /* height: 530px; */
             position: absolute;
+            padding-bottom: 50px;
             width: 100%;
             top: 0;
             left: 0;
@@ -52,7 +53,13 @@
     } 
     .carousel-text{
         font-size: 24px;
-        width: 99%;
+        width: 95%;
         padding: 0;
     }
+}
+@media screen and (max-width:380px) {
+    .carousel
+    .carousel-heading{
+        font-size: 50px;
+    } 
 }
